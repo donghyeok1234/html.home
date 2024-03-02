@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .selection-header{
+            width: 100%;
+            background: rgb(245,245,239);
+            height: 120px;
+        }
+
+        .inner-header{
+            width: 1100px;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            align-items: center;
+        }
+
+        .logo{
+            width: 75px;
+            height: 75px;
+        }
+
+        .logo img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .space-nav{
+
+        }
+
+        .space-nav li{
+            display: inline-block;
+            padding-left: 12px;
+            padding-bottom: 10px;
+        }
+
+        .top-nav{
+            height: 45px;
+            font-size: 13px;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 70px;
+            padding-right: 10px;
+        }
+
+        .top-nav a{
+            color: black;
+            text-decoration: none;
+            padding-right: 10px;
+            padding-left: 10px;
+            border-right: 1px solid lightgray;
+        }
+
+        .top-nav a:hover{
+            text-decoration: underline;
+        }
+
+        .bottom-nav{
+            margin-right: 50px;
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        .bottom-nav a{
+            color: black;
+            text-decoration: none;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .bottom-nav a:hover{
+            text-decoration: underline;
+            color: green;
+        }
+
+        .background-img{
+            background-image: url(./images/background.jpg);
+            width: 100%;
+            height: 32vw;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .background-text-img img{
+            position: absolute;
+            width: 270px;
+            height: 150px;
+            top: 30.34%;
+            left: 15.1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="selection-header">
+        <div class="inner-header">
+            <div class="logo">
+                <a href="http://127.0.0.1:5500/starbucks.html"><img src="./images/starbucks_logo.png" alt="스타벅스 로고"></a>
+            </div>
+            <div class="space-nav">
+                <div class="top-nav">
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">My starbucks</a></li>
+                        <li><a href="#">Customer Service & Ideas</a></li>
+                        <li><a href="#">Find a Store</a></li>
+                        <li><button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                    </ul>
+                </div>
+                <div class="bottom-nav">
+                    <ul>
+                        <li><a href="#">COFFEE</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">STORE</a></li>
+                        <li><a href="#">RESPONSIBILITY</a></li>
+                        <li><a href="#">STARBUCKS REWARD</a></li>
+                        <li><a href="#">CORPORATE SALES</a></li>
+                        <li><a href="#">WHAT'S NEW</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-img">
+        <div class="background-text-img">
+            <img src="./images/background_text.jpg">
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
